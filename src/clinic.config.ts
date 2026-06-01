@@ -51,32 +51,32 @@ export const CLINIC = {
       "id": "preenchimento-labial",
       "name": "Preenchimento Labial",
       "desc": "Realça formato, volume e definição com proporção áurea calculada.",
-      "img": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800"
+      "img": "https://drpauloteles.com.br/wp-content/uploads/2025/04/photo-output-10-1024x1024.jpg"
     },
     {
       "id": "harmonizacao-facial",
       "name": "HOF Tudo em Um",
       "desc": "Protocolo integrando ácido hialurônico, toxina e fios PDO.",
-      "img": "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800"
+      "img": "https://drpauloteles.com.br/wp-content/uploads/2025/04/Imagem-do-WhatsApp-de-2025-04-01-as-16.29.48_6c4e4667-1-1.webp"
     },
     {
       "id": "botox",
       "name": "Rinomodelação",
       "desc": "Reestruturação não invasiva do nariz com ácido hialurônico.",
-      "img": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800"
+      "img": "https://drpauloteles.com.br/wp-content/uploads/2025/04/photo-output-7.jpg"
     },
     {
       "id": "bioestimulador",
       "name": "Fios PDO",
       "desc": "Sustentação e firmeza minimamente invasiva.",
-      "img": "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800"
+      "img": "https://drpauloteles.com.br/wp-content/uploads/2025/04/IMG_4128-2-1020x1024.jpg"
     }
   ],
   "doctor": {
     "name": "Dr. Paulo Teles",
     "title": "CRO-SP 125063 · Especialista em Harmonização Orofacial",
     "bio": "Referência em harmonização orofacial com atuação fundamentada na ciência, estética e técnica avançada. Mais de 7 anos de experiência e milhares de procedimentos realizados.",
-    "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400"
+    "avatar": "https://drpauloteles.com.br/wp-content/uploads/2025/05/Group-5-e1753906628472.webp"
   },
   "signature": {
     "title": "A assinatura Paulo Teles",
@@ -109,6 +109,27 @@ export const CLINIC = {
       "q": "É doloroso?",
       "a": "Anestesia tópica torna o procedimento praticamente indolor. Você sai da clínica caminhando."
     }
-  ]
+  ],
+  "images": {
+    "hero": "https://drpauloteles.com.br/wp-content/uploads/2025/05/Group-5-e1753906628472.webp",
+    "doctor": "https://drpauloteles.com.br/wp-content/uploads/2025/05/Group-5-e1753906628472.webp",
+    "clinic": "https://drpauloteles.com.br/wp-content/uploads/2025/05/DSC02357.webp",
+    "procedures": {
+      "harmonizacao-facial": "https://drpauloteles.com.br/wp-content/uploads/2025/04/Imagem-do-WhatsApp-de-2025-04-01-as-16.29.48_6c4e4667-1-1.webp",
+      "preenchimento-labial": "https://drpauloteles.com.br/wp-content/uploads/2025/04/photo-output-10-1024x1024.jpg",
+      "botox": "https://drpauloteles.com.br/wp-content/uploads/2025/04/photo-output-7.jpg",
+      "bioestimulador": "https://drpauloteles.com.br/wp-content/uploads/2025/04/IMG_4128-2-1020x1024.jpg"
+    },
+    "results_gallery": [
+      "https://drpauloteles.com.br/wp-content/uploads/2024/04/bruno-.jpg",
+      "https://drpauloteles.com.br/wp-content/uploads/2023/09/mcdaniel.jpg",
+      "https://drpauloteles.com.br/wp-content/uploads/2024/04/julia-1024-x-1024-pxcwdcwcw.jpeg",
+      "https://drpauloteles.com.br/wp-content/uploads/2023/09/mulher-ps.jpg",
+      "https://drpauloteles.com.br/wp-content/uploads/2024/04/julia-1024-x-1024-pxnknikni.jpeg",
+      "https://drpauloteles.com.br/wp-content/uploads/2025/04/2A08937B-2609-47A5-A60A-6A1C2994FCD8-scaled.jpg",
+      "https://drpauloteles.com.br/wp-content/uploads/2023/08/Design-sem-nome-20.png",
+      "https://drpauloteles.com.br/wp-content/uploads/2025/04/CDCE5E23-967C-4AB2-8D91-EEFCEC9819D7-scaled.jpg"
+    ]
+  }
 } as const;
 export type ClinicConfig = typeof CLINIC;
