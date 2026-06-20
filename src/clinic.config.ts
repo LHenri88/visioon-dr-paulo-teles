@@ -111,7 +111,7 @@ export const CLINIC = {
     }
   ],
   "images": {
-    "hero": "/img/Group-5-e1753906628472-b546b5.webp",
+    "hero": "/img/DSC02357-2d6da1.webp",
     "doctor": "/img/Group-5-e1753906628472-b546b5.webp",
     "clinic": "/img/DSC02357-2d6da1.webp",
     "procedures": {
